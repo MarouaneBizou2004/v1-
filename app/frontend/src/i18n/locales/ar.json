@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "chat": "المحادثة",
+    "report": "بلاغ"
+  },
+  "chat": {
+    "title": "مساعد المدينة",
+    "placeholder": "صف مشكلتك...",
+    "send": "إرسال",
+    "startReport": "بدء البلاغ"
+  },
+  "report": {
+    "title": "تقديم بلاغ",
+    "step": "الخطوة {{current}} من {{total}}",
+    "next": "التالي",
+    "back": "السابق",
+    "submit": "إرسال",
+    "category": "الفئة",
+    "titleLabel": "العنوان",
+    "description": "الوصف",
+    "location": "الموقع",
+    "address": "العنوان",
+    "latitude": "خط العرض",
+    "longitude": "خط الطول",
+    "images": "صور",
+    "confirmation": "تم إنشاء البلاغ! رقم المتابعة: {{trackingNumber}}"
+  }
+}

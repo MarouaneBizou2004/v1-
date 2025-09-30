@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "chat": "Discussion",
+    "report": "Déclarer"
+  },
+  "chat": {
+    "title": "Chatbot de la ville",
+    "placeholder": "Décrivez votre problème...",
+    "send": "Envoyer",
+    "startReport": "Commencer un signalement"
+  },
+  "report": {
+    "title": "Signalement",
+    "step": "Étape {{current}} sur {{total}}",
+    "next": "Suivant",
+    "back": "Retour",
+    "submit": "Envoyer",
+    "category": "Catégorie",
+    "titleLabel": "Titre",
+    "description": "Description",
+    "location": "Localisation",
+    "address": "Adresse",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "images": "Images",
+    "confirmation": "Signalement créé ! Numéro : {{trackingNumber}}"
+  }
+}
