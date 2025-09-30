@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "chat": "Chat",
+    "report": "Report"
+  },
+  "chat": {
+    "title": "City Support Chatbot",
+    "placeholder": "Describe your issue...",
+    "send": "Send",
+    "startReport": "Start issue report"
+  },
+  "report": {
+    "title": "Issue Report",
+    "step": "Step {{current}} of {{total}}",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit",
+    "category": "Category",
+    "titleLabel": "Title",
+    "description": "Description",
+    "location": "Location",
+    "address": "Address",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "images": "Images",
+    "confirmation": "Report created! Tracking number: {{trackingNumber}}"
+  }
+}

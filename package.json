@@ -1,0 +1,17 @@
+{
+  "name": "mastermycity",
+  "private": true,
+  "workspaces": [
+    "app/backend",
+    "app/frontend"
+  ],
+  "scripts": {
+    "lint": "npm run lint -w app/backend && npm run lint -w app/frontend",
+    "test": "npm run test -w app/backend && npm run test -w app/frontend",
+    "build": "npm run build -w app/backend && npm run build -w app/frontend",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11"
+  }
+}
