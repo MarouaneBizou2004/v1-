@@ -1,9 +1,9 @@
-import type { Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
+import type { Request, Response } from 'express';
 import { z } from 'zod';
 
-import { UserModel } from '../models/User';
 import { HttpError } from '../middlewares/errorHandler';
+import { UserModel } from '../models/User';
 import { generateTokens, verifyToken } from '../services/tokenService';
 
 const authSchema = z.object({

@@ -35,7 +35,7 @@ export const createReport = async (req: AuthRequest, res: Response) => {
   const images = mapFilesToIds(req.files as Express.Multer.File[]);
   const report = await ReportModel.create({
     ...parsed.data,
-    images: images.map((id) => new Types.ObjectId()),
+    images: images.map((_imageId) => new Types.ObjectId()),
     createdBy: new Types.ObjectId(req.user?.id)
   });
   res.status(201).json({ id: report.id, trackingNumber: report.id, status: report.status });

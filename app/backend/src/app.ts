@@ -2,11 +2,11 @@ import cors from 'cors';
 import express from 'express';
 import helmet from 'helmet';
 
+import { errorHandler } from './middlewares/errorHandler';
 import { env } from './config/env';
 import { authRouter } from './routes/authRoutes';
 import { chatRouter } from './routes/chatRoutes';
 import { reportRouter } from './routes/reportRoutes';
-import { errorHandler } from './middlewares/errorHandler';
 
 const app = express();
 app.use(helmet());

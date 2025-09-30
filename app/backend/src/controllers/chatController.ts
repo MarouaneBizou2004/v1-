@@ -2,9 +2,9 @@ import type { Request, Response } from 'express';
 import { Types } from 'mongoose';
 import { z } from 'zod';
 
+import { HttpError } from '../middlewares/errorHandler';
 import { ChatSessionModel } from '../models/ChatSession';
 import { MessageModel } from '../models/Message';
-import { HttpError } from '../middlewares/errorHandler';
 
 const sessionSchema = z.object({
   userId: z.string().optional(),

@@ -1,4 +1,5 @@
-import { Schema, Types, model } from 'mongoose';
+import { Schema, model } from 'mongoose';
+import type { Types } from 'mongoose';
 
 type Category = 'road' | 'lighting' | 'sanitation' | 'safety' | 'other';
 type Status = 'new' | 'in_progress' | 'resolved' | 'rejected';
