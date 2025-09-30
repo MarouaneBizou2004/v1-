@@ -1,0 +1,57 @@
+{
+  "chat": {
+    "sender": {
+      "user": "Vous",
+      "bot": "Bot",
+      "staff": "Agent"
+    },
+    "empty": "Commencez à signaler vos préoccupations urbaines en envoyant un message.",
+    "placeholder": "Décrivez le problème...",
+    "send": "Envoyer",
+    "sending": "Envoi..."
+  },
+  "notifications": {
+    "title": "Mises à jour des services urbains",
+    "subtitle": "Restez informé de la réponse de la ville à votre signalement.",
+    "realtime": "Mises à jour en temps réel via notifications",
+    "multilingual": "Chat et signalement en anglais, français ou arabe",
+    "tracking": "Numéro de suivi fourni après l'envoi"
+  },
+  "report": {
+    "title": "Signaler un problème",
+    "subtitle": "Suivez les étapes pour soumettre une anomalie urbaine.",
+    "next": "Suivant",
+    "back": "Retour",
+    "submit": "Envoyer le signalement",
+    "confirmation": "Merci ! Votre signalement a été reçu.",
+    "tracking": "Votre numéro de suivi est {{id}}",
+    "reportAnother": "Signaler un autre problème",
+    "mapHelper": "Indiquez les coordonnées approximatives ou l'adresse du problème.",
+    "steps": {
+      "1": "Catégorie",
+      "2": "Localisation",
+      "3": "Détails",
+      "4": "Confirmation"
+    },
+    "fields": {
+      "category": "Catégorie",
+      "title": "Titre",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "addressOptional": "Adresse (optionnel)",
+      "description": "Description",
+      "images": "Images"
+    },
+    "categories": {
+      "road": "Voirie",
+      "lighting": "Éclairage",
+      "sanitation": "Propreté",
+      "safety": "Sécurité",
+      "other": "Autre"
+    },
+    "errors": {
+      "title": "Le titre est requis",
+      "description": "La description est requise"
+    }
+  }
+}
