@@ -1,0 +1,57 @@
+{
+  "chat": {
+    "sender": {
+      "user": "You",
+      "bot": "Bot",
+      "staff": "Staff"
+    },
+    "empty": "Start reporting your city concerns by sending a message.",
+    "placeholder": "Describe the issue...",
+    "send": "Send",
+    "sending": "Sending..."
+  },
+  "notifications": {
+    "title": "City services updates",
+    "subtitle": "Stay informed about how the city responds to your report.",
+    "realtime": "Real-time updates via web notifications",
+    "multilingual": "Chat and report in English, French or Arabic",
+    "tracking": "Tracking number provided after submission"
+  },
+  "report": {
+    "title": "Report an issue",
+    "subtitle": "Follow the steps to submit an urban anomaly.",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit report",
+    "confirmation": "Thank you! Your report has been received.",
+    "tracking": "Your tracking number is {{id}}",
+    "reportAnother": "Report another issue",
+    "mapHelper": "Enter the approximate coordinates or address of the issue.",
+    "steps": {
+      "1": "Category",
+      "2": "Location",
+      "3": "Details",
+      "4": "Confirmation"
+    },
+    "fields": {
+      "category": "Category",
+      "title": "Title",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "addressOptional": "Address (optional)",
+      "description": "Description",
+      "images": "Images"
+    },
+    "categories": {
+      "road": "Road",
+      "lighting": "Lighting",
+      "sanitation": "Sanitation",
+      "safety": "Safety",
+      "other": "Other"
+    },
+    "errors": {
+      "title": "Title is required",
+      "description": "Description is required"
+    }
+  }
+}
